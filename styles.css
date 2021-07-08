@@ -1,0 +1,79 @@
+/* Font name is IM Fell Great Primer SC  */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'IM Fell Great Primer SC';
+    min-height: 100vh;
+    color: #fff;
+    background-color: black;
+    /* text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+/* Loader */
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query  */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .image-container {
+        margin: 10px;
+    }
+}
